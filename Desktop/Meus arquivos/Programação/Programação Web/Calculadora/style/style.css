@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans:ital,wght@0,400;1,300&family=Roboto&display=swap');
+
+*{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;
+    user-select: none;
+    overflow: hidden;
+}
+
+#btnes{
+    position: relative;
+    background-color: rgb(32, 32, 32);
+    display: none;
+    width: 38px;
+    height: 38px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    margin-top: calc(50vh-20px);
+    
+}
+
+#btnes:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.calculadora{
+    position: relative;
+    width: 320px;
+    height: 540px;
+    left: calc(50vw - 160px);
+    top: calc(50vh - 270px);
+    background-color: rgb(32, 32, 32);
+    border-radius: 9px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    border: solid 1px black;
+    overflow: hidden;
+}
+
+.img1{
+    position: relative;
+    z-index: 1;
+    left: 12px;
+    top: 2px;
+    height: 31px;
+}
+
+
+.titulo{
+    position: relative;
+    left: 48px;
+    top: -27px;
+    color: white;
+    font-size: 12px;
+}
+
+.btn-{
+    position: relative;
+    left: 181px;
+    top: -62px;
+    width: 47px;
+    height: 34px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: 100;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.btn-:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.btnq{
+    position: relative;
+    left: 177px;
+    top: -60px;
+    width: 47px;
+    height: 34px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btnq:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+.btnx{
+    position: relative;
+    left: 173px;
+    top: -60px;
+    width: 47px;
+    height: 34px;
+    border-radius: 0px 9px 0px 0px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: 100;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btnx:hover{
+    background-color: rgb(194, 22, 22);
+}
+
+.titulo2{
+    position: relative;
+    color: white;
+    left: -125px;
+    top: -22px;
+    font-size: 19px;
+    background-color: rgb(32, 32, 32);
+    font-weight: 900;
+}
+
+.btnh{
+    position: relative;
+    left: 50px;
+    top: -14px;
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: 100;
+    font-size: 24px;
+    padding-top: 3px;
+    margin-bottom: 14px;
+    overflow: hidden;
+}
+
+
+
+.btnh:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+#input1{
+    position: relative;
+    top: -15px;
+    left: 10px;
+    width: 300px;
+    height: 14px;
+    background-color: rgb(32, 32, 32);
+    color: rgb(163, 163, 163);
+    font-size: 13px;
+    border: none;
+    user-select: none;
+    outline: none;
+    padding-top: 3px;
+    text-align: right;
+}
+
+#input2{
+    position: relative;
+    top: -13px;
+    left: 10px;
+    width: 300px;
+    height: 55px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: 45px;
+    border: none;
+    user-select: none;
+    outline: none;
+    text-align: right;
+    font-weight: 800;
+}
+
+.allbtns{
+    position: relative;
+    top: 18px;
+    left: 2px;
+}
+
+.btnrow{
+    position: relative;
+    margin: 2px;
+    width: 98.8%;
+}
+
+.btn, .btnop{
+    height: 64.5px;
+    width: 73px;
+    margin: 1px;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    /* width: 23.1%;*/
+
+}
+
+.btn{
+    background-color: rgb(51, 51, 51);
+}
+
+.btn:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.btnop{
+    background-color: rgb(41, 41, 41);
+}
+
+.btnop:hover{
+    background-color: rgb(51, 51, 51);
+}
+
+#calc{
+    height: 64.5px;
+    width: 73px;
+    margin: 1px;
+    font-size: 25px;
+    color: rgb(32, 32, 32);
+    border: none;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(88, 88, 88);
+}
+
+#calc:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+#historico{
+    position: relative;
+    width: 320px;
+    height: 350px;
+    left: 0;
+    top: 55px;
+    background-color: rgb(31, 31, 31);
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+    border: none;
+    overflow: hidden;
+}
+
+#inp1, #inp2, #inp3, #inp4, #inp5, #inp6, #inp7, #inp8, #inp9, #inp10, #inp11{
+    background-color: rgb(31, 31, 31);
+    border: none;
+    position: relative;
+    user-select: none;
+    outline: none;
+
+}
+
+#inp1d{
+    position: relative;
+    top: 8px;
+    left: 15px;
+    padding: 0px;
+    display: block;
+}
+
+#inp1{
+    width: 200px;
+    color: white;
+    z-index: 1000;
+}
+
+#inp2, #inp4, #inp6, #inp8, #inp10{
+    top: 2px;
+    left: 140px;
+    text-align: right;
+    color: rgb(163, 163, 163);
+    background-color: rgb(31, 31, 31);
+}
+
+#inp3, #inp5, #inp7, #inp9, #inp11{
+    color: white;
+    top: 6px;
+    left: 57px;
+    text-align: right;
+    font-size: 20px;
+    background-color: rgb(31, 31, 31);
+}
+
+.fb, .sb, .tb{
+    margin-top: 22px;
+    border-radius: 5px;
+    width: 314px;
+    margin-left: 3px;
+    margin-right: 3px;
+    background-color: rgb(31, 31, 31);
+    position: relative;
+    top: 3px;
+    height: 60px;
+    display: none;
+}
+
+.fb:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.fb:hover #inp2{
+    background-color: rgb(55, 55, 55);
+}
+
+.fb:hover #inp3{
+    background-color: rgb(55, 55, 55);
+}
+
+.sb:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.sb:hover #inp4{
+    background-color: rgb(55, 55, 55);
+}
+
+.sb:hover #inp5{
+    background-color: rgb(55, 55, 55);
+}
+
+.tb:hover {
+    background-color: rgb(55, 55, 55);
+}
+
+.tb:hover #inp6{
+    background-color: rgb(55, 55, 55);
+}
+
+.tb:hover #inp7{
+    background-color: rgb(55, 55, 55);
+}
+
+#limpar{
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    top: 290px;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    left: 265px;
+    display: none;
+}
+
+#limpar1{
+    height: 30px;
+    width: 30px;
+    border: none;
+    background-color: rgb(31, 31, 31);
+    z-index: auto;
+    color: white;
+    font-size: 25px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#limpar1:hover{
+    background-color: rgb(51, 51, 51);
+}
+
