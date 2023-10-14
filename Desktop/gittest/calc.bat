@@ -1,2 +1,0 @@
-start calc.exe
-exit
