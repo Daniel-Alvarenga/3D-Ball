@@ -1,7 +1,7 @@
 # Esfera 3D com JS
 Esse pequeno projeto explora a criação de elementos html com javascript, e as propriedades matematicas de trigonometria para criar sem nenhum framework a visualização de uma esfera:
 
-![Esfera GIF](esfera.gif)
+<center>![Esfera GIF](esfera.gif)</center>center>
 
 ## 1. Executando o projeto
 
