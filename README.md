@@ -2,8 +2,9 @@
 Esse pequeno projeto explora a criação de elementos html com javascript, e as propriedades matematicas de trigonometria para criar sem nenhum framework a visualização de uma esfera:
 
 <p align="center">
-  <img src="https://github.com/VitorCarvalho67/3D-Ball/assets/102667323/16620f07-3631-40bd-b4a1-78345f211215"/>
+  <img src="https://github.com/VitorCarvalho67/3D-Ball/assets/102667323/33ebd050-514a-4272-98f2-f39d3cc2481d"/>
 </p>
+
 
 ## 1. Executando o projeto
 
