@@ -1,5 +1,5 @@
 # Esfera 3D com JS
-Esse pequeno projeto explora a criação de elementos html com javascript, e as propriedades matematicas de trigonometria para criar sem nenhum framework a visualização de uma esfera:
+Esse pequeno projeto explora a criação de elementos HTML com JavaScript, com as propriedades matemáticas de trigonometria e o preserv3d de CSS para criar sem o uso de nenhum framework a visualização de uma esfera:
 
 <p align="center">
   <img src="https://github.com/Daniel-Alvarenga/3D-Ball/assets/128755697/77f15262-924f-4e7d-847b-e8a3438ba7f3"/>
